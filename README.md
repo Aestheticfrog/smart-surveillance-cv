@@ -32,33 +32,51 @@ It demonstrates a complete computer vision pipeline, covering fundamental to adv
 - NumPy
 
 **Project Structure
+
 smart-surveillance-cv/
+
 │
+
 ├── src/
+
 │   ├── main.py
+
 │   ├── preprocessing.py
+
 │   ├── motion.py
+
 │   ├── detection.py
+
 │   ├── features.py
+
 │   ├── tracking.py
+
 │
+
 ├── requirements.txt
+
 ├── README.md
+
 └── report.pdf
 
 **Installation & Setup
 
 1. Clone the Repository
+
 git clone https://github.com/your-username/smart-surveillance-cv
+
 cd smart-surveillance-cv
 
 2. Install Dependencies
+   
 pip install -r requirements.txt
 
 **How to Run
+
 python src/main.py --input sample_video.mp4 --output result.mp4
 
 Arguments:
+
 - `--input` → Path to input video
 - `--output` → Output video file (optional)
 
@@ -111,5 +129,7 @@ A detailed report explaining methodology, results, and analysis is included in t
 **Author
 
 Milin Patel(23BAI10386)
+
 B.Tech CSE (AI & ML)  
+
 VIT Bhopal University
